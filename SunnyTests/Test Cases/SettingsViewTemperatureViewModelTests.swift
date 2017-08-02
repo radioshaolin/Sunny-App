@@ -17,9 +17,9 @@ class SettingsViewTemperatureViewModelTests: XCTestCase {
     }
     
     override func tearDown() {
-        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.temperatureNotation)
-        
         super.tearDown()
+        
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.temperatureNotation)
     }
     
     func testText_Fahrenheit() {

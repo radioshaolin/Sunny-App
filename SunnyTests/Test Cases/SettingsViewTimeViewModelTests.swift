@@ -17,9 +17,9 @@ class SettingsViewTimeViewModelTests: XCTestCase {
     }
     
     override func tearDown() {
-        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.timeNotation)
-        
         super.tearDown()
+    
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.timeNotation)
     }
 
     func testText_TwelveHour() {

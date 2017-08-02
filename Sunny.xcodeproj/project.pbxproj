@@ -35,6 +35,7 @@
 		D565D56C1F321D09005C29AA /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565D56B1F321D09005C29AA /* XCTestCase.swift */; };
 		D565D56E1F321F9B005C29AA /* DayViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565D56D1F321F9B005C29AA /* DayViewViewModelTests.swift */; };
 		D565D5701F32378F005C29AA /* forecast.json in Resources */ = {isa = PBXBuildFile; fileRef = D565D56F1F323690005C29AA /* forecast.json */; };
+		D565D5721F323EFD005C29AA /* WeatherDayViewViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565D5711F323EFD005C29AA /* WeatherDayViewViewModelTests.swift */; };
 		D5FC15031F309C6F00AE06F1 /* DayViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC15021F309C6F00AE06F1 /* DayViewViewModel.swift */; };
 		D5FC15051F30AF3700AE06F1 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC15041F30AF3700AE06F1 /* UIImage.swift */; };
 		D5FC15071F30CC1200AE06F1 /* WeekViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC15061F30CC1200AE06F1 /* WeekViewViewModel.swift */; };
@@ -86,6 +87,7 @@
 		D565D56B1F321D09005C29AA /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
 		D565D56D1F321F9B005C29AA /* DayViewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewViewModelTests.swift; sourceTree = "<group>"; };
 		D565D56F1F323690005C29AA /* forecast.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = forecast.json; sourceTree = "<group>"; };
+		D565D5711F323EFD005C29AA /* WeatherDayViewViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayViewViewModelTests.swift; sourceTree = "<group>"; };
 		D5FC15021F309C6F00AE06F1 /* DayViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewViewModel.swift; sourceTree = "<group>"; };
 		D5FC15041F30AF3700AE06F1 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		D5FC15061F30CC1200AE06F1 /* WeekViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewViewModel.swift; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 				D53FE10B1F31DFF400D0AB1F /* SettingsViewTimeViewModelTests.swift */,
 				D53FE10D1F31E79800D0AB1F /* SettingsViewUnitsViewModelTests.swift */,
 				D53FE10F1F31E7B300D0AB1F /* SettingsViewTemperatureViewModelTests.swift */,
+				D565D5711F323EFD005C29AA /* WeatherDayViewViewModelTests.swift */,
 				D565D5681F320657005C29AA /* WeekViewViewModelTests.swift */,
 				D565D56D1F321F9B005C29AA /* DayViewViewModelTests.swift */,
 			);
@@ -503,6 +506,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D565D56C1F321D09005C29AA /* XCTestCase.swift in Sources */,
+				D565D5721F323EFD005C29AA /* WeatherDayViewViewModelTests.swift in Sources */,
 				D53FE10E1F31E79800D0AB1F /* SettingsViewUnitsViewModelTests.swift in Sources */,
 				D565D56E1F321F9B005C29AA /* DayViewViewModelTests.swift in Sources */,
 				D565D5691F320657005C29AA /* WeekViewViewModelTests.swift in Sources */,

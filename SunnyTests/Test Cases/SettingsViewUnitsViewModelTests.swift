@@ -17,9 +17,9 @@ class SettingsViewUnitsViewModelTests: XCTestCase {
     }
     
     override func tearDown() {
-        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.unitsNotation)
-        
         super.tearDown()
+        
+        UserDefaults.standard.removeObject(forKey: UserDefaultsKeys.unitsNotation)
     }
 
     func testText_Imperial() {
