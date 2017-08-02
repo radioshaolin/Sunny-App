@@ -28,21 +28,21 @@ class DayViewViewModelTests: XCTestCase {
     }
     
     func testDate() {
-        XCTAssertEqual(viewModel.date, "Thu, October 6")
+        XCTAssertEqual(viewModel.date, "Thu, October, 6")
     }
     
     func testTime_TweveHour() {
         let timeNotation: TimeNotation = .twelveHour
         UserDefaults.standard.set(timeNotation.rawValue, forKey: UserDefaultsKeys.timeNotation)
         
-        XCTAssertEqual(viewModel.time, "11:32 AM")
+        XCTAssertEqual(viewModel.time, "12:32 PM")
     }
     
     func testTime_TwentyFourHour() {
         let timeNotation: TimeNotation = .twentyFourHour
         UserDefaults.standard.set(timeNotation.rawValue, forKey: UserDefaultsKeys.timeNotation)
         
-        XCTAssertEqual(viewModel.time, "11:32")
+        XCTAssertEqual(viewModel.time, "12:32")
     }
     
     func testSummary() {
