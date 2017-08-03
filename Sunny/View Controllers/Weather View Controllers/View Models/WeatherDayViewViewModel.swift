@@ -41,7 +41,7 @@ struct WeatherDayViewViewModel: WeatherDayRepresentable {
         case .imperial:
             return String(format: "%.f MPH", windSpeed)
         case .metric:
-            return String(format: "%.f MPH", windSpeed.toKPH())
+            return String(format: "%.f KPH", windSpeed.toKPH())
         }
     }
     
